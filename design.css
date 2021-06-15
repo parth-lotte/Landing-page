@@ -39,7 +39,7 @@ a:hover{
 .fas {
   position: relative;
   padding: 2px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 .searchButton {
