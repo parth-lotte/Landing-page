@@ -19,6 +19,9 @@ html{
 body{
   background-color: aliceblue;
 }
+:root{
+ background-color:aliceblue
+}
 header{
   position: fixed;
   top: 0%;
@@ -30,5 +33,19 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+}
+header .logo{
+
+  font-size:2rem;
+
+}
+header .logo span{
+color: rgb(149, 10, 204);
+}
+header .navbar a{
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+/* margin-right: 2cm; */
 
 }
