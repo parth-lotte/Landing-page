@@ -1,74 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+  font-family: 'Lobster', cursive;
+  padding: 0%;
+  margin: 0%;
   box-sizing: border-box;
   
 }
-
-.navbar li {
-  float: left;
-  padding: 13px 50px 13px 10px;
-  list-style: none;
- color: aliceblue;
- 
- font-family: "Sources Sans Pro", sans-serif;
-}
-
-.navbar a{
-  color: rgb(215, 215, 215);
-  text-decoration: none;
-}
-a:hover{
-  color: rgb(255, 255, 255) 
-}
-.navbar ul {
-  overflow: auto;
-}
-.navbar {
-  background-color: rgb(51, 51, 51);
-  
-  /* border-radius: 10cm; */
-}
-.search {
-  float: right;
-  color: rgb(0, 0, 0);
-  padding: 5px 50px;
-  position: relative;
-}
-
-.fas {
-  position: relative;
-  padding: 2px;
-  color: rgb(255, 255, 255);
-}
-
-.searchButton {
-  background-color: rgb(51, 51, 51  );
-  border: 0ch;
-
-}
-
-.navbar input {
-  color: rgb(255, 255, 255);
-  border: 100cm;
-  /* border-radius: 1cm; */
- padding: 5px 50px ;
- background-color: rgb(51, 51, 51);
-}
-body {
-  /* background-image: url("lap.jpg"); */
-  background-size: cover;
-  background-color: black;
-  font-family: "Sources Sans Pro", sans-serif;
-}
-.fab
-{
-  color: rgb(215, 215, 215);
-  padding: 2px 5px;
-  
- 
-}
-.img{
-
-}
-
